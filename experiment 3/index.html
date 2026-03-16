@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="quiz-container">
+        <section id="intro">
+            <h1>Welcome to the JavaScript Quiz</h1>
+            <p>This quiz contains multiple choice questions. 
+               Select the correct answer and click Next to continue.</p>
+        </section>
+        <section id="quiz-section">
+            <h2 id="question">Question text will appear here</h2>
+            <div id="options">
+            </div>
+
+            <button id="next-btn">Next</button>
+        </section>
+        <section id="result-section" class="hidden">
+            <h2>Your Result</h2>
+            <p id="score"></p>
+            <p id="message"></p>
+            <button id="restart-btn">Restart Quiz</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
